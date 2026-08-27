@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "reference_environment": {
+    "python": "3.12",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1"
+  },
+  "notes": [
+    "Hashes identify the frozen inputs and archived numerical results used by the dissertation.",
+    "A deliberate data refresh will change the input hashes and creates a new empirical snapshot.",
+    "Cross-platform regenerated CSV text can differ in final floating-point digits; verification therefore also checks the design and reported numerical results with explicit tolerances."
+  ],
+  "sha256": {
+    "configs/default.json": "739f4925146ab5ba8a787f0dc3a7b89ba1a062d2b9e044be54b68d3ec86b8bc7",
+    "configs/quick.json": "c9d8b8d071dce9dab84a4ba16f9054ce219a59a043aa2e49dab16d94bdf831e4",
+    "configs/robustness.json": "25bcaa4fee5b6cef77e0281c30bf91b107a8c96e7cab1c7fbd721e78cd58316b",
+    "configs/calibration_study.json": "c6e63b0e1c448413ebd55b2b1ab03417ac0c253c44b4447e5bc9daf7db07b0fc",
+    "configs/calibrated.json": "c9b5ffaacc7333bf8fbcb6cb1afa1c389beb62120cec668f90a820ed39644439",
+    "data/raw/SPY_yahoo_raw.csv": "854fc4913b3733be3589a4b88f464ec9433ef1d4dec26d354cce05dd0a7d0799",
+    "data/raw/QQQ_yahoo_raw.csv": "f9002caf6f219f8c0f361d52702d83789115b46ecfc7b5acdd4dc2344fb844d3",
+    "data/raw/GLD_yahoo_raw.csv": "bfdbdb9c4dd28cb263109726ca8c317f5c0b8ed7896521b43fe5061fa717d4b8",
+    "data/raw/TLT_yahoo_raw.csv": "d0a62909258193ee0aae90459a624a2efffc71c72daae9084e6d8353bee4f7d4",
+    "data/raw/USO_yahoo_raw.csv": "e7214acd75c52959853342b5a9bc9f123a7fa0e55b0206b0395af8c8e5864ad3",
+    "data/etf_adjusted_close_2010_2025.csv": "b78822cc48231a343d029e3ad47c88769bc234e5e47b09c06d659dbae828f5d1",
+    "data/historical_calibration.json": "eb9669353a6dd693f315d0c4886e4312bb63da6e30a819fcf4379cd172a89499",
+    "outputs/historical_full_methodology/experiment_runs.csv": "ee0409fbb3c531b6d818629e136fade5df838d17cdd491ad9cb4a7cdac19cb61",
+    "outputs/historical_full_methodology/analysis/factorial_regressions.csv": "f593d71ee0337d709e98cf815c1e6aefb6fdeaa76fa1adb940c5072428855362",
+    "outputs/robustness/robustness_runs.csv": "1921560fd316c978d79443cb9e84381012f8ba9bd420e4254bbbd0fd29e359ef",
+    "outputs/drawdown_calibration/calibration_decision.json": "31c211f030710e5ad9afd6b129bb699b776faced5a4c9a4e5a1e8a328bf2d3d5",
+    "outputs/historical_full_calibrated/experiment_runs.csv": "4262c61fe8ddace91540cd64230d98ae45461211d4be0bd172749e5c10fc4f9c"
+  }
+}

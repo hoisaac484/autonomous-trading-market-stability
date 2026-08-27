@@ -1,0 +1,22 @@
+{
+  "base_config": "configs/default.json",
+  "calibration_start": "2010-01-04",
+  "calibration_end": "2019-12-31",
+  "holdout_start": "2020-01-01",
+  "holdout_end": "2025-12-31",
+  "random_stream_version": "calibration_v2",
+  "seeds": [11, 29, 47, 71, 101],
+  "holdout_seed_count": 50,
+  "price_impact_multiplier": [0.25, 0.5, 0.75],
+  "depth_multiplier": [0.75, 1.0, 1.25],
+  "liquidity_withdrawal_strength": [0.25, 0.5, 0.75],
+  "background_order_multiplier": [0.5, 0.75, 1.0],
+  "reaction_time_heterogeneity": [0.0, 0.35],
+  "loss_weights": {
+    "volatility": 0.30,
+    "drawdown": 0.30,
+    "correlation": 0.20,
+    "autocorrelation": 0.10,
+    "tails": 0.10
+  }
+}

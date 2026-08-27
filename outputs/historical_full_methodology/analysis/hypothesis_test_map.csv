@@ -1,0 +1,5 @@
+Hypothesis,EvidenceTerms,PrimaryOutcomes
+H1,participation; participation_x_amm,realised_volatility; mean_pairwise_correlation
+H2,similarity; participation_x_similarity,peak_herding; peak_asset_herding; realised_volatility
+H3,amm; participation_x_amm,normalised_liquidity_deterioration; realised_volatility
+H4,safeguard_*,realised_volatility; maximum_drawdown; recovery_time

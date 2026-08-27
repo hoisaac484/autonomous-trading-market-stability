@@ -1,0 +1,37 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Local reproduction runs
+reproduced/
+reproduced-*/
+tmp/
+
+# Private dissertation working material
+*.docx
+~$*
+downloads/
+tools/
+
+# Keep only the curated numerical outputs used by the dissertation
+outputs/*
+!outputs/historical_full_methodology/
+!outputs/historical_full_calibrated/
+!outputs/drawdown_calibration/
+!outputs/robustness/
+!outputs/validation/
+
+# Figure 5.3 was removed from the final dissertation
+data/results_figures/figure_5_3_h3_market_structure.png
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

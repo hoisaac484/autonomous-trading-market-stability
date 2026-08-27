@@ -1,0 +1,3 @@
+# Reference numerical environment used to reproduce the archived CSV results.
+numpy==2.3.5
+pandas==3.0.1

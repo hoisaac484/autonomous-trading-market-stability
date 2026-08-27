@@ -1,0 +1,17 @@
+{
+  "data": {
+    "prices_csv": "data/etf_adjusted_close_2010_2025.csv"
+  },
+  "steps": 240,
+  "intervals_per_day": 24,
+  "shock_start": 100,
+  "shock_duration": 20,
+  "n_agents": 120,
+  "random_stream_version": "primary_v1",
+  "autonomous_participation": [0.0, 0.5],
+  "similarity": [0.0, 0.8],
+  "markets": ["traditional", "amm"],
+  "shocks": ["fundamental", "volatility", "liquidity"],
+  "safeguards": ["none", "all"],
+  "seeds": [11, 29]
+}

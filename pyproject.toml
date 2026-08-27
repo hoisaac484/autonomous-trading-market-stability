@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "algorithmic-herding-abm"
+version = "1.0.0"
+description = "Reproducible agent-based study of autonomous portfolio herding in traditional and AMM markets"
+requires-python = ">=3.12,<3.13"
+dependencies = ["numpy==2.3.5", "pandas==3.0.1"]
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.9,<4"]
+download = ["yfinance>=1.0,<2", "matplotlib>=3.9,<4"]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+herding-abm = "herding_abm.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

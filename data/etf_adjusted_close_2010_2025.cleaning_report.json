@@ -1,0 +1,45 @@
+{
+  "requested_start": "2010-01-04",
+  "requested_end": "2025-12-31",
+  "actual_start": "2010-01-04",
+  "actual_end": "2025-12-31",
+  "tickers": [
+    "SPY",
+    "QQQ",
+    "GLD",
+    "TLT",
+    "USO"
+  ],
+  "input_rows": {
+    "SPY": 4024,
+    "QQQ": 4024,
+    "GLD": 4024,
+    "TLT": 4024,
+    "USO": 4024
+  },
+  "duplicate_dates_removed": {
+    "SPY": 0,
+    "QQQ": 0,
+    "GLD": 0,
+    "TLT": 0,
+    "USO": 0
+  },
+  "missing_values_detected": {
+    "SPY": 0,
+    "QQQ": 0,
+    "GLD": 0,
+    "TLT": 0,
+    "USO": 0
+  },
+  "nonpositive_values_removed": {
+    "SPY": 0,
+    "QQQ": 0,
+    "GLD": 0,
+    "TLT": 0,
+    "USO": 0
+  },
+  "outer_union_rows": 4024,
+  "common_aligned_rows": 4024,
+  "rows_removed_by_common_date_alignment": 0,
+  "return_rows": 4023
+}

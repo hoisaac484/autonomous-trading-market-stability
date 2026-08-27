@@ -1,0 +1,22 @@
+{
+  "data": {
+    "prices_csv": "data/etf_adjusted_close_2010_2025.csv"
+  },
+  "steps": 500,
+  "intervals_per_day": 24,
+  "shock_start": 200,
+  "shock_duration": 40,
+  "n_agents": 300,
+  "random_stream_version": "calibration_v2",
+  "price_impact_multiplier": 0.25,
+  "depth_multiplier": 1.25,
+  "liquidity_withdrawal_strength": 0.25,
+  "background_order_multiplier": 0.5,
+  "reaction_time_heterogeneity": 0.35,
+  "autonomous_participation": [0.0, 0.25, 0.5, 0.75],
+  "similarity": [0.0, 0.5, 0.9],
+  "markets": ["traditional", "amm"],
+  "shocks": ["fundamental", "volatility", "liquidity"],
+  "safeguards": ["none", "execution_delay", "position_limit", "liquidity_buffer", "circuit_breaker", "all"],
+  "seeds": [11, 29, 47, 71, 101, 131, 173, 211, 257, 307]
+}

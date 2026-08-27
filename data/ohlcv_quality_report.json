@@ -1,0 +1,48 @@
+{
+  "start": "2010-01-04",
+  "end": "2025-12-31",
+  "common_rows": 4024,
+  "assets": {
+    "SPY": {
+      "input_rows": 4024,
+      "missing_ohlcv_rows": 0,
+      "nonpositive_price_rows": 0,
+      "nonpositive_volume_rows": 0,
+      "inconsistent_ohlc_rows": 0,
+      "valid_rows": 4024
+    },
+    "QQQ": {
+      "input_rows": 4024,
+      "missing_ohlcv_rows": 0,
+      "nonpositive_price_rows": 0,
+      "nonpositive_volume_rows": 0,
+      "inconsistent_ohlc_rows": 0,
+      "valid_rows": 4024
+    },
+    "GLD": {
+      "input_rows": 4024,
+      "missing_ohlcv_rows": 0,
+      "nonpositive_price_rows": 0,
+      "nonpositive_volume_rows": 0,
+      "inconsistent_ohlc_rows": 0,
+      "valid_rows": 4024
+    },
+    "TLT": {
+      "input_rows": 4024,
+      "missing_ohlcv_rows": 0,
+      "nonpositive_price_rows": 0,
+      "nonpositive_volume_rows": 0,
+      "inconsistent_ohlc_rows": 0,
+      "valid_rows": 4024
+    },
+    "USO": {
+      "input_rows": 4024,
+      "missing_ohlcv_rows": 0,
+      "nonpositive_price_rows": 0,
+      "nonpositive_volume_rows": 0,
+      "inconsistent_ohlc_rows": 0,
+      "valid_rows": 4024
+    }
+  },
+  "extreme_rule": "Ten largest absolute robust-z observations per ticker and variable; retained after OHLCV validity checks"
+}

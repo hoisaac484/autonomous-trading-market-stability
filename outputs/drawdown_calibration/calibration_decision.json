@@ -1,0 +1,8 @@
+{
+  "baseline_holdout_weighted_loss": 0.22309547624990347,
+  "selected_holdout_weighted_loss": 0.22175691043095752,
+  "holdout_improvement_pct": 0.5999968450487717,
+  "material_improvement_threshold_pct": 5.0,
+  "adoption_decision": "retain baseline; use minimum-loss candidate as sensitivity specification",
+  "decision_reason": "Out-of-sample weighted-loss improvement must be at least 5% to justify replacing the more parsimonious baseline."
+}

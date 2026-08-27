@@ -1,0 +1,19 @@
+# Keep source and documentation portable.
+*.py text eol=lf
+*.toml text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# These frozen research inputs and archived outputs are checksum-addressed.
+# Do not let Git rewrite their line endings on another operating system.
+configs/*.json -text
+data/**/*.csv -text
+data/**/*.json -text
+outputs/**/*.csv -text
+outputs/**/*.json -text
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary

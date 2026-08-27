@@ -1,0 +1,23 @@
+{
+  "base_config": "configs/default.json",
+  "markets": ["traditional", "amm"],
+  "shocks": ["fundamental", "volatility", "liquidity"],
+  "seeds": [11, 47, 101, 173, 257],
+  "participation": 0.5,
+  "similarity": 0.9,
+  "cases": [
+    {"name": "baseline"},
+    {"name": "low_depth", "depth_multiplier": 0.6},
+    {"name": "high_depth", "depth_multiplier": 1.4},
+    {"name": "more_noise_traders", "noise_share": 0.65, "fundamental_share": 0.20},
+    {"name": "more_fundamental_traders", "noise_share": 0.25, "fundamental_share": 0.55},
+    {"name": "slow_rebalancing", "rebalancing_speed_multiplier": 0.6},
+    {"name": "fast_rebalancing", "rebalancing_speed_multiplier": 1.4},
+    {"name": "short_signals", "short_signal_window": 3, "long_signal_window": 12},
+    {"name": "long_signals", "short_signal_window": 10, "long_signal_window": 40},
+    {"name": "mild_shock", "shock_magnitude_multiplier": 0.6},
+    {"name": "severe_shock", "shock_magnitude_multiplier": 1.4},
+    {"name": "low_lp_tolerance", "lp_risk_tolerance_multiplier": 0.6},
+    {"name": "high_lp_tolerance", "lp_risk_tolerance_multiplier": 1.4}
+  ]
+}
