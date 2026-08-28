@@ -105,5 +105,3 @@ tests/                   Determinism, design and data-cleaning tests
 ## Interpretation boundary
 
 The traditional mechanism is a finite-depth aggregate price-impact model, not a reconstructed exchange limit-order book. AMM pools use a cash numeraire, simplified liquidity-provider withdrawal and arbitrage. The results support controlled comparisons between scenarios; absolute simulated losses are not forecasts of future ETF or DeFi losses.
-
-No software licence has been selected. Add an appropriate `LICENSE` before inviting reuse beyond inspection and academic replication.
